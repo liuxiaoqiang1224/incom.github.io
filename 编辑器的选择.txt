@@ -1,0 +1,73 @@
+前端入门选择合适的编辑器
+什么是编辑器?
+
+在我接触前端开发的这段时间,编辑器对我来说就是写代码的一个工具,简称--IDE.每一款编辑器的用法大致都一样,如果你会使用其中一个,那么其他的你都会了.(不要去看官方的解释,呵呵...).
+
+在我学习前端开发对的这段时间所接触的编辑器中,个人认为webStorm和Sublime这两款还不错.
+
+我们先说一下WebStorm
+
+WebStorm=PhpStorm-PHP-Database-support
+
+总体印象只专注Web前端开发
+
+优点:
+
+1:代码导航:Shift+Shift快速查文件和代码,Ctrl+B跳转.
+
+2:Shift+Ctrl+A快速调用编辑器提供的各种功能.
+
+3:CodeGlance插件在代码右侧提供了minimap.
+
+4:Ctrl+Q快速查看当前代码的文档,并且还可以查看外部的联机文档.
+
+5:自带git集成,文件在folder和tab上用不同的颜色标示不同的版本状态,并且修改的代码在左右侧有颜色提示.不过Folder里的目录没有版本状态标示.
+
+6:强大的插件管理功能.打开不支持的文件格式时,会提示下载相关插件.
+
+7:CSS文件左侧显示所见即所得的颜色.
+
+必要的插件:
+
+ideaVim:提供Vim编辑模式.
+
+CodeGlance:代码右侧的minimap.
+
+Apache config(.htaccess) support:Apache配置文件格式支持.
+
+缺陷:不支持PHP是硬伤.启动速度慢.不支持Twig.
+
+Sublime:
+
+ 总体印象：启动速度超快，不过安装插件会难倒一大片人。
+
+选用理由：
+1：代码导航：Ctrl+P调出Goto Anything快速查找文件和代码。F12跳转，遗憾的是跳转后不能像Vim那样返回。
+2：Shift+Ctrl+P调出Command Palette快速调用功能。
+3：编辑器右侧有整个文件的mini-map，方便快速定位代码位置，不过这个mini-map比Atom的minimap要差些。
+4：SublimeLinter插件提供编辑时的语法检查，无须保存文件后才能检查。不过需要为每种语言都安装语法检查插件，为啥不能像Vim那样只安装一个插件就支持所有语言？
+5：Vintageous插件提供了较为完整的Vim编辑模式，包括命令模式、插入模式、底线命令模式。支持增量高亮搜索(/,?,#,,g#,g)；支持替换命令(:s, :%s)。
+6：GitGutter提供代码修改状态，不过功能远不如Atom自带的功能强大，例如minimap里就看不到修改状态，folder里的文件也看不到代码修改状态。
+7：Xdebug Client插件提供了PHP可视化调试功能。
+
+必要的插件：
+Vintageous：提供Vim编辑模式。
+SublimeLinter, SublimeLinter-php, SublimeLinter-jshint, SublimeLinter-shellcheck：提供语法检查，保证代码不出现语法错误。
+sublime-phpcs：PHP代码审查，保证代码符合规范。
+PHP-Twig：Twig文件格式。
+BracketHighlighter：括号和HTML标签匹配高亮。
+Highlighter：高亮不正常的字符，例如尾部空格等。
+DocBlockr：快速写注释。
+GitGutter：查看代码修改状态。
+Git：git功能集成。
+jQuery Snippets pack：jQuery函数模板。
+Drupal：Drupal框架函数模板、自动补齐、info文件语法高亮等功能。
+Xdebug Client：PHP可视化调试。
+
+缺陷：
+
+解决ibus等中文录入的问题比较麻烦。
+Javascript语法检查不起作用。
+ 
+ 
+以上就是这段时间我对这两款编辑器的看法和总结,如有不对或遗漏的地方欢迎评论补充.
