@@ -1,0 +1,59 @@
+
+body, ul, dl, dd, p, h1, h2, h3, h4, h5, h6, form, input {
+	margin: 0;
+	padding: 0;
+}
+body {
+	min-width: 1366px;
+	/*background: url(../../static/uploadsbgc.jpg) no-repeat;*/
+	font: 14px 'Microsoft Yahei';
+	color: #050505;
+	background-color: #e7eff4;
+}
+li {
+	list-style: none;
+}
+img {
+	border: 0 none;
+	vertical-align: middle;
+}
+a {
+	color: #ffffff;;
+	text-decoration: none;
+}
+a:hover {
+	color: #00a4ff;
+}
+input {
+	border: 0 none;
+	outline: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-weight: 400;
+}
+.blue {
+	color: #00a4ff;
+}
+.db {
+	display: inline-block;
+}
+.w {
+	width: 90%;
+	margin: 0 auto;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.clearfix:before, .clearfix:after {
+	content: "";
+	display: table;
+}
+.clearfix:after {
+	clear: both;
+}
+.clearfix {
+	*zoom: 1;
+}
